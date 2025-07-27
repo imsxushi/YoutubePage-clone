@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="side-bar.css" />
+    <link rel="stylesheet" href="content.css" />
+  </head>
+  <body>
+    <!--Lets start from Navbar-->
+    <header>
+      <div class="navbar">
+        <div class="box1">
+          <div class="menu">
+            <span class="material-symbols-outlined"> menu </span>
+          </div>
+          <div class="yt-logo">
+            <img src="yt_logo_rgb_light.png" alt="none" />
+          </div>
+        </div>
+        <div class="box2">
+          <div class="search-bar-container">
+            <label for="search-input" class="visually-hidden"></label>
+            <input id="search-input" type="text" placeholder="Search" />
+            <button class="search-btn">
+              <span class="material-symbols-outlined"> search </span>
+            </button>
+          </div>
+
+          <div class="mic-logo">
+            <span class="material-symbols-outlined"> mic </span>
+          </div>
+        </div>
+        <div class="box3">
+          <div class="add-logo">
+            <span class="material-symbols-outlined"> add </span>
+            <span class="create">Create</span>
+          </div>
+          <div class="notification-logo">
+            <span class="material-symbols-outlined"> notifications </span>
+          </div>
+          <div class="user-profile">
+            <img src="Walter White.png" alt="not loading" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Starting to create Sidebar-->
+    <aside class="sidebar">
+      <!--top section-->
+      <div class="sidebar-section">
+        <div class="sidebar-item">
+          <span class="material-symbols-outlined"> home </span>
+          <span class="home">Home</span>
+        </div>
+        <div class="sidebar-item">
+          <span class="material-symbols-outlined"> slow_motion_video </span>
+          <span class="shorts">Shorts</span>
+        </div>
+        <div class="sidebar-item">
+          <span class="material-symbols-outlined"> subscriptions </span>
+          <span class="subscription">Subscriptions</span>
+        </div>
+      </div>
+      <!--closing of side-bar -item-->
+      <!--middle section-->
+      <div class="sidebar-section">
+        <div class="sidebar-item">
+          <button class="you">You</button>
+          <span class="material-symbols-outlined"> arrow_back_ios </span>
+        </div>
+        <div class="sidebar-item">
+          <span class="material-symbols-outlined"> history </span>
+          <span>History</span>
+        </div>
+        <div class="sidebar-item">
+          <span class="material-symbols-outlined"> playlist_add </span>
+          <span>Playlists</span>
+        </div>
+        <div class="sidebar-item">
+          <span class="material-symbols-outlined"> video_camera_front </span>
+          <span>Your Video</span>
+        </div>
+        <div class="sidebar-item">
+          <span class="material-symbols-outlined"> school </span
+          ><span>Your Courses</span>
+        </div>
+        <div class="sidebar-item">
+          <span class="material-symbols-outlined"> add_to_queue </span>
+          <span>Watch Later</span>
+        </div>
+        <div class="sidebar-item">
+          <span class="material-symbols-outlined"> thumb_up </span
+          ><span>Liked Videos</span>
+        </div>
+        <div class="sidebar-item">
+          <span class="material-symbols-outlined"> download </span>
+          <span>Download</span>
+        </div>
+      </div>
+      <!--bottom section-->
+      <div class="sidebar-section">
+        <div class="sidebar-subscription">
+          <span>Subscriptions</span>
+        </div>
+        <div class="sidebar-channel">
+          <img src="3rd profile.jpg" alt="not loading" />
+          <span> Firebase</span>
+        </div>
+        <div class="sidebar-channel">
+          <img src="chess-profile.jpg" alt="not loading" />
+          <span>Franky</span>
+        </div>
+        <div class="sidebar-more-channel">
+          <span class="material-symbols-outlined"> keyboard_arrow_down </span>
+          <span><button>show more</button></span>
+        </div>
+      </div>
+    </aside>
+    <!--Content section-->
+    <div class="parent-container">
+      <div class="child-container">
+        <div class="grand-child-container">
+          <div class="thumbnails">
+            <img src="v1thumbnail.avif" alt="not loading" />
+          </div>
+
+          <div class="profile-pic">
+            <div class="profile-image">
+              <img src="v1profile.jpg" alt="not loading" />
+            </div>
+            <div class="video-details">
+              <span class="video-title"
+                >Stop Learning These 5 Skills in 2025(Data shows why )</span
+              >
+              <span class="channel-name">Anudeep Sharma</span>
+              <span class="views">7.1K views . 3 days ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="grand-child-container">
+          <div class="thumbnails">
+            <img src="video2thumb.avif" alt="not loading" />
+          </div>
+          <div class="profile-pic">
+              <div class="profile-image">
+
+                <img src="v2profile.jpg" alt="not loading" />
+              </div>
+              <div class="video-details">
+                <span class="video-title"
+                  >How to make money with only HTML and CSS in 2025</span
+                >
+                <span class="channel-name">Mr. Web</span>
+                <span class="views">711K views . 4 months ago</span>
+              </div>
+            </div>
+        </div>
+        <div class="grand-child-container">
+          <div class="thumbnails">
+            <img src="v3thumbnail.avif" alt="not loading" />
+          </div>
+          <div class="profile-pic">
+              <div class="profile-image">
+
+                <img src="v3profile.jpg" alt="not loading" />
+              </div>
+              <div class="video-details">
+                <span class="video-title"
+                  >7 AI online courses You should learn that are FREE in 2025</span
+                >
+                <span class="channel-name">Vedantu JEE</span>
+                <span class="views">122K views . 18 days ago</span>
+              </div>
+            </div>
+        </div>
+        <div class="grand-child-container">
+          <div class="thumbnails">
+            <img src="v4thumbnail.avif" alt="not loading" />
+          </div>
+          <div class="profile-pic">
+              <div class="profile-image">
+
+                <img src="v4profile.jpg" alt="not loading" />
+              </div>
+              <div class="video-details">
+                <span class="video-title"
+                  >I saw all Fantastic 4 movies, So you don't have to watch them</span
+                >
+                <span class="channel-name">ComicVerse</span>
+                <span class="views">213K views . 10 days ago</span>
+              </div>
+            </div>
+        </div>
+        <div class="grand-child-container">
+          <div class="thumbnails">
+            <img src="v5thumbnail.avif" alt="not loading" />
+          </div>
+          <div class="profile-pic">
+              <div class="profile-image">
+
+                <img src="v5profile.jpg" alt="not loading" />
+              </div>
+              <div class="video-details">
+                <span class="video-title"
+                  >Top  5  Crazy  projects that will help you  to land a Job in 2025</span
+                >
+                <span class="channel-name">Nishant Chahar</span>
+                <span class="views">7.1K views . 3 days ago</span>
+              </div>
+            </div>
+        </div>
+        <div class="grand-child-container">
+          <div class="thumbnails">
+            <img src="v6thumbnail.avif" alt="not loading" />
+          </div>
+          <div class="profile-pic">
+              <div class="profile-image">
+
+                <img src="v6profile.jpg" alt="not loading" />
+              </div>
+              <div class="video-details">
+                <span class="video-title"
+                  >How a 21-year old got 80 lakh placement(before degree)</span
+                >
+                <span class="channel-name">Harkirat Singh</span>
+                <span class="views">7.1K views . 3 days ago</span>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

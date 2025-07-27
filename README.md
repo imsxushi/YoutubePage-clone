@@ -1,15 +1,18 @@
-# 📺 YouTube Clone (HTML + CSS Only)
+# 📺 YouTube Clone - HTML & CSS Only
 
-This is my first web development project — a basic YouTube homepage clone built using **HTML** and **CSS**.
+Hey there! This is my very first web development project – a **YouTube-inspired homepage clone** built purely with **HTML and CSS** while I was learning the basics.
+
+> ⚠️ Note: This is a beginner-level clone and not fully responsive or interactive (yet!). I'll keep enhancing it as I learn more about JavaScript and responsive design.
 
 ---
 
 ## 🚀 Features
 
-- Responsive navbar with logo, search bar, mic, and user section
-- Sidebar navigation just like YouTube
-- Video grid layout with channel info and thumbnails
-- Material Symbols + Roboto font for that classic YouTube look
-
+- 🧭 Responsive **navbar** with logo, search bar, mic icon, and user options
+- 📂 Sidebar navigation similar to YouTube (Home, Shorts, Subscriptions, etc.)
+- 🖼️ Grid-based video thumbnail layout
+- 👤 Channel info and video metadata styling
+- 🔍 Clean and modular code structure
+- 💅 Fully styled using **custom CSS**
 
 
